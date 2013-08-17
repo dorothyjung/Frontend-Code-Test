@@ -1,5 +1,6 @@
 <!-- HTML goes here -->
 <HTML5>
+
 	<head>
 	<ul>
 		<li><a href="index.html">Home</a></li>
@@ -9,18 +10,44 @@
 	</head>
 
 	<body>
-		<div class="sidebar">
-			<b>Sidebar</b>
-		</div>
-		<div class="content">
-		</div>
+			<div class="sidebar">
+				<b>Sidebar</b>
+			</div>
+			<div class="content">
+			<div class="article">
+
+<!-- image float left, text to the right, h1(title), h2(by), h3(author), date, body text, comment icon, number of comments, border bottom-->
+			<img src="http://placekitten.com/140/120" />
+			<div id="title">
+			</div>
+			<div id="author">
+			</div>
+			<div id="date">
+			</div>
+			<div id="comments">
+			</div>
+
+			</div>
+			<div class="article">
+			<img src="http://placekitten.com/140/120" />
+			</div>
+			</div>
 
 	</body>
 	<footer>
 		
 	</footer>
 	<style type="text/css">
+	.body{background:#fff; font-size:11px;text-decoration: none;font-family:sans-serif;color:#000;}
+
 	.content{width:660px;float:left;padding-top:20px;padding-left:20px;padding-right:50px;}
 	.sidebar{width:300px;float:right;}
+	.article{width:300px;padding-top: 10px;padding-bottom: 10px;}
+
+	#title{font-size: 14px;font-weight: bold;color:#051;}
+	#author{font-size: 12px;font-weight:normal;color:#9CA;}
+	#date{font-style: italic;}
+	#comments{font-size: 10px;color:#051;}
+
 	</style>
 </HTML5>
